@@ -3,32 +3,37 @@ body{
 	font-weight: 100;
 	font-size: 1.125em;
 	background: #69C4F5 url('img/blue_background.jpg');
+	height: 2000px;
 	
 
 }
 
 header{
-	margin: 0 auto;
-	padding: 0 auto;
+	position: fixed;
+	width: 100%;
+	top: 0%;
 	background: #8FD9B4 url('img/green_background.jpg');
 	font-family: 'Ubuntu Mono', sans-serif;
 	display: block;
 	overflow: hidden;
+	border: 0.11em solid black;
 }
 
 header > h1{
-	margin: 0 auto;
+	margin: 0;
 	padding: 1%;
+	padding-left: 2.5%;
 	font-size: 1.65em;
 	float: left;
 }
 
 header > ul{
 	display: inline;
-	margin: 0 auto;
-	padding: 1%;
+	margin: 0;
+	padding: 1.5% 6% 0% 0%;
 	font-size: 0.95em;
 	float: right;
+	border: 0.5% solid black;
 }
 
 header > ul > li{
