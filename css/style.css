@@ -7,43 +7,49 @@
 
 div#splash {
 	width: 100%;
-	height: 2500px;
-	background: url("img/connectivity.png") no-repeat fixed;
+	height: 2000px;
+	background: url("img/connectivity.png") no-repeat;
 
 }
 
-#header_div{
-	margin: 1% auto 5% auto;
-	top: 0%;
-	display: block;
-	float: right;	
-	font-family: 'Arapey', sans-serif;
-	font-style: italic;
-	font-weight: lighter;
-}
 
-#splash > div.grid_6 > header > h1{
-	font-size: 1.65em;
-	display: block;
-	float: right;
-	padding-left: 50%;
-	float: left;
-	color: white;
+#training_state{
+display: block;
+padding-left: 44%;
+padding-right: 0%;
+padding-top: 0%;
+font-size: 2.75em;
+color: white;
+float: right;
+font-family: 'Arapey', sans-serif;
+font-style: italic;
+font-weight: lighter;
+
 }
 
 span.name{
-	opacity: 0.85;
+	opacity: 0.65;
 }
 
 #what{
 	display: block;
 	margin: 30% auto auto 32%;
+	font-size: 1.10em;
 }
 
 #why{
+	display: block;
 	padding-top: 130%;
 	padding-left: 60%;
 }
+
+#how{
+	padding-top: 41%;
+	padding-left: 68%
+;
+	font-size: 1.55em;
+}
+
 
 
 .question_link{
