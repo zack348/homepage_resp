@@ -74,39 +74,20 @@ img{
 @media screen and (max-width: 1680px){
 
 	#why{
-    margin: 0;
 
-	
-    padding-left: 0;
-    padding-top: 100%;
-}
+	}
 
 	#how{
-    padding-left: 27%;
 
-	
-    padding-top: 28%;
-    font-size: 2.5em;
-}
+	}
 
 	#what{
-    margin: 0;
 
-	
-    padding-top: 22%;
-    padding-left: 24%;
-}
+	}
 
 	#training_state{
-    padding-left: 90%;
-		
-	
-    padding-top: 1%;
-    font-size: 3.5em;
-}
 
-
-
+	}
 
 }
 
@@ -116,7 +97,7 @@ img{
 @media screen and (max-width: 1366px){
 
 	#why{
-    padding-left: 40%;
+    padding-left: 39%;
 
 	}
 
@@ -126,12 +107,34 @@ img{
 	}
 
 	#training_state{
+    margin: 0;
+
+	
+    padding-top: 5%;
     padding-right: 17%;
+}
 
+
+
+}
+
+/* Small Desktop */
+
+@media screen and (max-width: 1280px){
+	
+	#why{
+		padding-left:55%
 	}
-
-
-
+	
+	#how{
+		padding-left:65%;
+	}
+	
+	#training_state{
+		margin:0;
+		padding-right:0
+	}
+		
 }
 
 /*iPad*/
