@@ -1,13 +1,14 @@
+
+
 #container{
 	font-size: 1.125em;
-	height: 4000px;
 }
 
 
 
 div#splash {
 	width: 100%;
-	height: 2000px;
+	height: 100vh;
 	background: url("img/connectivity.png") no-repeat;
 
 }
