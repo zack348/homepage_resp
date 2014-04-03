@@ -72,7 +72,7 @@ img{
 
 /* Large Desktop */
 
-@media screen and (max-width: 1680px){
+@media screen and (min-width: 1500px) and (max-width: 1680px){
 
 	#why{
     margin: 0;
@@ -188,16 +188,18 @@ img{
 
 	#why{
 		display: block;
-		padding-top: 17%;
-		padding-left: 105%;
 	
-		font-size: 1.45em;
+		margin: 0;
+		padding-right: 53%;
+		padding-top: 38%;
+		padding-left: 105%;
 }
 
 	#how{
 		padding-left: 7%;
 		font-size: 1.65em;
-	}
+	
+}
 }
 
 /*iPhone*/
