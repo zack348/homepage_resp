@@ -15,6 +15,7 @@ div#splash {
 
 
 #training_state{
+	display: block;
 	text-shadow: 3px 3px 5px #64E8FA;
 	padding-right: 7%;
 	padding-top: 0%;
@@ -45,6 +46,7 @@ span.name{
 }
 
 #how{
+	display: block;
 	padding-top: 38%;
 	padding-left: 66%;
 	font-size: 1.85em;
@@ -76,16 +78,12 @@ img{
 	#why{
     font-size: 1.85em;
     margin: 0;
-
-	
     padding-left: 0;
     padding-top: 110%;
 }
 
 	#how{
     margin: 0;
-
-	
     padding-left: 26%;
     padding-top: 34%;
     font-size: 2.4em;
@@ -93,16 +91,12 @@ img{
 
 	#what{
     margin: 0;
-
-	
     padding-top: 22%;
     padding-left: 24%;
 }
 
 	#training_state{
     font-size: 3.35em;
-
-	
     margin: 0;
     padding-top: 10%;
     padding-left: 85%;
@@ -117,21 +111,16 @@ img{
 
 	#why{
     padding-left: 39%;
-
 	}
 
 	#how{
     padding-left: 56%;
-
 	}
 
 	#training_state{
-    margin: 0;
-
-	
+    margin: 0;	
     padding-top: 5%;
     padding-right: 21%;
-	
     padding-left: 60%;
 }
 
@@ -163,7 +152,6 @@ img{
 @media screen and (max-width: 1024px){
 	#training_state{
 		margin: 0;
-		display: block;
 		padding-left: 67%;
 		padding-right: 22%;
 		padding-top: 22%;
@@ -184,13 +172,10 @@ img{
 		margin: 0;
 		padding-top: 36%;
 		padding-left: 39%;
-		display: block;
 		font-size: 1.2em;
 	}
 
 	#why{
-		display: block;
-	
 		margin: 0;
 		padding-right: 53%;
 		padding-top: 38%;
@@ -200,7 +185,6 @@ img{
 	#how{
 		padding-left: 7%;
 		font-size: 1.65em;
-	
 		margin: 0;
 		padding-bottom: 69%;
 }
@@ -214,14 +198,12 @@ img{
 		margin: 0;
 		padding-top: 66%;
 		padding-left: 74%;
-		display: block;
 		font-size: 1.10em
 	}
 
 	#why{
 		font-size: 1.2em;
 		font-size: 1.;
-		display: block;
 		padding-top: 136%;
 		padding-left: 137%;
 	}
