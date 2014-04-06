@@ -15,7 +15,7 @@ div#splash {
 
 
 #training_state{
-	text-shadow: 3px 3px 5px #FAFAFC;
+	text-shadow: 3px 3px 5px #64E8FA;
 	padding-right: 7%;
 	padding-top: 0%;
 	font-size: 2.75em;
@@ -130,7 +130,9 @@ img{
 
 	
     padding-top: 5%;
-    padding-right: 17%;
+    padding-right: 21%;
+	
+    padding-left: 60%;
 }
 
 
@@ -199,6 +201,8 @@ img{
 		padding-left: 7%;
 		font-size: 1.65em;
 	
+		margin: 0;
+		padding-bottom: 69%;
 }
 }
 
@@ -215,9 +219,11 @@ img{
 	}
 
 	#why{
+		font-size: 1.2em;
+		font-size: 1.;
 		display: block;
-		padding-top: 114%;
-		padding-left: 145%;
+		padding-top: 136%;
+		padding-left: 137%;
 	}
 
 	#how{
